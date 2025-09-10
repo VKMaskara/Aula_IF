@@ -23,7 +23,7 @@ else:
     # Verificar se excedeu 80 km/h
     if velocidade_media > 80:
         excesso = velocidade_media - 80
-        multa = excesso * 5
+        multa = distancia * 5
         print(f"Você excedeu a velocidade em {excesso:.2f} km/h.")
         print(f"Multa: R$ {multa:.2f}")
     else:
